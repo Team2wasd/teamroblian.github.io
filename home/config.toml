@@ -1,0 +1,78 @@
+hubaseURL = "https://roblian.com"
+title = "Team Roblian"
+copyright = "Copyright © Team Roblian. All Rights Reserved."
+paginate = 2
+languageCode = "ko"
+DefaultContentLanguage = "ko"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+DisqusShortname = ""
+theme = "hugo-theme-chunky-poster"
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "games"
+    name = "Games"
+    url = "/games/"
+    weight = 2
+  [[menu.main]]
+    identifier = "Member"
+    name = "Members"
+    url = "/members/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[params]
+  author = "Team Rolbian"
+  description = "Game Development Team for Roblox."
+  homepageImage = "/images/logo.jpg"
+  dateFormat = "September 3, 2021"
+  share = true
+  showLanguageSwitcher = true
+
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    rss = true
+    twitter = "https://twitter.com/TeamRoblian"
+    github = "https://github.com/TeamRoblian/"
+    youtube = "https://www.youtube.com/channel/UCeOAc6gVvHAXgJfxUhMlXww"
+    group = "https://www.roblox.com/groups/9757404/Team-Roblian#!/about"
+
+  [params.prismJS]
+    enable = true
+    theme = ""
+
+  [params.commento]
+    enable = true
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
